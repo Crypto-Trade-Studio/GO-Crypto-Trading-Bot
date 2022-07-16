@@ -1,0 +1,44 @@
+config.json
+config.dat
+node_modules
+lib
+.vscode
+
+testdata/dump
+testdata/preengine_config.json
+testdata/writefiletest
+
+# InteliJ
+.idea
+*.iml
+vendor/
+
+# Binaries for programs and plugins
+gocryptotrader
+cmd/gctcli/gctcli
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+sqlboiler.toml
+sqlboiler.json
+
+# GCT API Check
+backup.json
+.DS_STORE
+
+# Designated generated files dir
+target/
+
+# Delve compiled executable
+__debug_bin
+
+# Coverage reports
+coverage.txt
